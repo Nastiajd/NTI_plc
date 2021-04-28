@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-04-28T10:23:31.1356205Z</Created>
+    <Created>2021-04-28T20:01:30.2704325Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -79,7 +79,7 @@
   <Section Name="InOut" />
   <Section Name="Static">
     <Member Name="outSTATE" Datatype="Byte" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
-    <Member Name="RT_DATA" Datatype="G7_RTDataPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Internal data area</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S_DISPLAY" Datatype="Int" /><Member Name="S_SEL_OLD" Datatype="Int" /><Member Name="S_DISPIDX" Datatype="USInt"><StartValue Informative="true">255</StartValue></Member><Member Name="T_DISPIDX" Datatype="USInt"><StartValue Informative="true">255</StartValue></Member><Member Name="MOP_EDGE" Datatype="G7_MOPPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="AUTO" Datatype="Bool" /><Member Name="MAN" Datatype="Bool" /><Member Name="TAP" Datatype="Bool" /><Member Name="TOP" Datatype="Bool" /><Member Name="ACK_S" Datatype="Bool" /><Member Name="REG_S" Datatype="Bool" /><Member Name="T_PREV" Datatype="Bool" /><Member Name="T_NEXT" Datatype="Bool" /><Member Name="LOCK" Datatype="Bool" /><Member Name="SUP" Datatype="Bool" /><Member Name="ACKREQ" Datatype="Bool" /><Member Name="SSKIP" Datatype="Bool" /><Member Name="OFF" Datatype="Bool" /><Member Name="INIT" Datatype="Bool" /><Member Name="HALT" Datatype="Bool" /><Member Name="TMS_HALT" Datatype="Bool" /><Member Name="OPS_ZERO" Datatype="Bool" /><Member Name="SACT_DISP" Datatype="Bool" /><Member Name="SEF_DISP" Datatype="Bool" /><Member Name="SALL_DISP" Datatype="Bool" /><Member Name="S_PREV" Datatype="Bool" /><Member Name="S_NEXT" Datatype="Bool" /><Member Name="S_SELOK" Datatype="Bool" /><Member Name="S_ON" Datatype="Bool" /><Member Name="S_OFF" Datatype="Bool" /><Member Name="T_PUSH" Datatype="Bool" /><Member Name="REG" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="IL_PERM" Datatype="Bool" /><Member Name="T_PERM" Datatype="Bool" /><Member Name="ILP_MAN" Datatype="Bool" /><Member Name="LMODE" Datatype="Bool" /></Section></Sections></Member><Member Name="MOP" Datatype="G7_MOPPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="AUTO" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="MAN" Datatype="Bool" /><Member Name="TAP" Datatype="Bool" /><Member Name="TOP" Datatype="Bool" /><Member Name="ACK_S" Datatype="Bool" /><Member Name="REG_S" Datatype="Bool" /><Member Name="T_PREV" Datatype="Bool" /><Member Name="T_NEXT" Datatype="Bool" /><Member Name="LOCK" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SUP" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="ACKREQ" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SSKIP" Datatype="Bool" /><Member Name="OFF" Datatype="Bool" /><Member Name="INIT" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="HALT" Datatype="Bool" /><Member Name="TMS_HALT" Datatype="Bool" /><Member Name="OPS_ZERO" Datatype="Bool" /><Member Name="SACT_DISP" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SEF_DISP" Datatype="Bool" /><Member Name="SALL_DISP" Datatype="Bool" /><Member Name="S_PREV" Datatype="Bool" /><Member Name="S_NEXT" Datatype="Bool" /><Member Name="S_SELOK" Datatype="Bool" /><Member Name="S_ON" Datatype="Bool" /><Member Name="S_OFF" Datatype="Bool" /><Member Name="T_PUSH" Datatype="Bool" /><Member Name="REG" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="IL_PERM" Datatype="Bool" /><Member Name="T_PERM" Datatype="Bool" /><Member Name="ILP_MAN" Datatype="Bool" /><Member Name="LMODE" Datatype="Bool" /></Section></Sections></Member><Member Name="TIME_DELTA" Datatype="Time" /><Member Name="SQ_FLAGS" Datatype="G7_SQFlagsPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="ERR_FLT" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="FAULT" Datatype="Bool" /><Member Name="RT_FAIL" Datatype="Bool" /><Member Name="NO_SNO" Datatype="Bool" /><Member Name="NF_OFL" Datatype="Bool" /><Member Name="SA_OFL" Datatype="Bool" /><Member Name="TV_OFL" Datatype="Bool" /><Member Name="MSG_OFL" Datatype="Bool" /><Member Name="NO_SWI" Datatype="Bool" /><Member Name="CYC_OP" Datatype="Bool" /><Member Name="AS_MSG" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="AS_SEND" Datatype="Bool" /><Member Name="SQ_BUSY" Datatype="Bool" /><Member Name="SA_BUSY" Datatype="Bool" /><Member Name="AS_SIG" Datatype="Bool" /></Section></Sections></Member><Member Name="PRE_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="POST_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="SQ_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="S_CNT" Datatype="USInt"><StartValue Informative="true">31</StartValue></Member><Member Name="LOCK_CNT" Datatype="USInt" /><Member Name="SUP_CNT" Datatype="USInt" /><Member Name="T_CNT" Datatype="USInt"><StartValue Informative="true">31</StartValue></Member><Member Name="SQ_PART_CNT" Datatype="USInt"><StartValue Informative="true">6</StartValue></Member><Member Name="MAX_TVAL" Datatype="USInt"><StartValue Informative="true">6</StartValue></Member><Member Name="MAX_SACT" Datatype="USInt"><StartValue Informative="true">6</StartValue></Member><Member Name="AS_MSG" Datatype="Byte"><StartValue Informative="true">16#65</StartValue></Member><Member Name="EXEC_BITS" Datatype="Array[0..249] of Bool" /><Member Name="OFFSETS" Datatype="G7_OffsetsPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="SINI_OFFSET" Datatype="UInt" /><Member Name="LSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">7</StartValue></Member><Member Name="ATAJ_OFFSET" Datatype="UInt"><StartValue Informative="true">38</StartValue></Member><Member Name="ATAB_OFFSET" Datatype="UInt"><StartValue Informative="true">69</StartValue></Member><Member Name="PSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">100</StartValue></Member><Member Name="NSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">131</StartValue></Member><Member Name="ASSJ_OFFSET" Datatype="UInt"><StartValue Informative="true">162</StartValue></Member><Member Name="ASSB_OFFSET" Datatype="UInt"><StartValue Informative="true">193</StartValue></Member><Member Name="PTTS_OFFSET" Datatype="UInt"><StartValue Informative="true">224</StartValue></Member><Member Name="NTTS_OFFSET" Datatype="UInt"><StartValue Informative="true">255</StartValue></Member><Member Name="SW_SQTS_OFFSET" Datatype="UInt"><StartValue Informative="true">286</StartValue></Member><Member Name="SWITCH_OFFSET" Datatype="UInt"><StartValue Informative="true">317</StartValue></Member><Member Name="TVX_OFFSET" Datatype="UInt"><StartValue Informative="true">322</StartValue></Member><Member Name="TTX_OFFSET" Datatype="UInt"><StartValue Informative="true">329</StartValue></Member><Member Name="TSX_OFFSET" Datatype="UInt"><StartValue Informative="true">336</StartValue></Member><Member Name="S00X_OFFSET" Datatype="UInt"><StartValue Informative="true">343</StartValue></Member><Member Name="SOFFX_OFFSET" Datatype="UInt"><StartValue Informative="true">350</StartValue></Member><Member Name="SONX_OFFSET" Datatype="UInt"><StartValue Informative="true">357</StartValue></Member><Member Name="SAX_OFFSET" Datatype="UInt"><StartValue Informative="true">364</StartValue></Member><Member Name="SERRX_OFFSET" Datatype="UInt"><StartValue Informative="true">371</StartValue></Member><Member Name="SMX_OFFSET" Datatype="UInt"><StartValue Informative="true">403</StartValue></Member><Member Name="S0X_OFFSET" Datatype="UInt"><StartValue Informative="true">435</StartValue></Member><Member Name="S1X_OFFSET" Datatype="UInt"><StartValue Informative="true">467</StartValue></Member></Section></Sections></Member><Member Name="THRESHOLD_SUP" Datatype="USInt" /><Member Name="THRESHOLD_WARN" Datatype="USInt" /></Section></Sections></Member>
+    <Member Name="RT_DATA" Datatype="G7_RTDataPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Internal data area</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S_DISPLAY" Datatype="Int" /><Member Name="S_SEL_OLD" Datatype="Int" /><Member Name="S_DISPIDX" Datatype="USInt"><StartValue Informative="true">255</StartValue></Member><Member Name="T_DISPIDX" Datatype="USInt"><StartValue Informative="true">255</StartValue></Member><Member Name="MOP_EDGE" Datatype="G7_MOPPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="AUTO" Datatype="Bool" /><Member Name="MAN" Datatype="Bool" /><Member Name="TAP" Datatype="Bool" /><Member Name="TOP" Datatype="Bool" /><Member Name="ACK_S" Datatype="Bool" /><Member Name="REG_S" Datatype="Bool" /><Member Name="T_PREV" Datatype="Bool" /><Member Name="T_NEXT" Datatype="Bool" /><Member Name="LOCK" Datatype="Bool" /><Member Name="SUP" Datatype="Bool" /><Member Name="ACKREQ" Datatype="Bool" /><Member Name="SSKIP" Datatype="Bool" /><Member Name="OFF" Datatype="Bool" /><Member Name="INIT" Datatype="Bool" /><Member Name="HALT" Datatype="Bool" /><Member Name="TMS_HALT" Datatype="Bool" /><Member Name="OPS_ZERO" Datatype="Bool" /><Member Name="SACT_DISP" Datatype="Bool" /><Member Name="SEF_DISP" Datatype="Bool" /><Member Name="SALL_DISP" Datatype="Bool" /><Member Name="S_PREV" Datatype="Bool" /><Member Name="S_NEXT" Datatype="Bool" /><Member Name="S_SELOK" Datatype="Bool" /><Member Name="S_ON" Datatype="Bool" /><Member Name="S_OFF" Datatype="Bool" /><Member Name="T_PUSH" Datatype="Bool" /><Member Name="REG" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="IL_PERM" Datatype="Bool" /><Member Name="T_PERM" Datatype="Bool" /><Member Name="ILP_MAN" Datatype="Bool" /><Member Name="LMODE" Datatype="Bool" /></Section></Sections></Member><Member Name="MOP" Datatype="G7_MOPPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="AUTO" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="MAN" Datatype="Bool" /><Member Name="TAP" Datatype="Bool" /><Member Name="TOP" Datatype="Bool" /><Member Name="ACK_S" Datatype="Bool" /><Member Name="REG_S" Datatype="Bool" /><Member Name="T_PREV" Datatype="Bool" /><Member Name="T_NEXT" Datatype="Bool" /><Member Name="LOCK" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SUP" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="ACKREQ" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SSKIP" Datatype="Bool" /><Member Name="OFF" Datatype="Bool" /><Member Name="INIT" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="HALT" Datatype="Bool" /><Member Name="TMS_HALT" Datatype="Bool" /><Member Name="OPS_ZERO" Datatype="Bool" /><Member Name="SACT_DISP" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="SEF_DISP" Datatype="Bool" /><Member Name="SALL_DISP" Datatype="Bool" /><Member Name="S_PREV" Datatype="Bool" /><Member Name="S_NEXT" Datatype="Bool" /><Member Name="S_SELOK" Datatype="Bool" /><Member Name="S_ON" Datatype="Bool" /><Member Name="S_OFF" Datatype="Bool" /><Member Name="T_PUSH" Datatype="Bool" /><Member Name="REG" Datatype="Bool" /><Member Name="ACK" Datatype="Bool" /><Member Name="IL_PERM" Datatype="Bool" /><Member Name="T_PERM" Datatype="Bool" /><Member Name="ILP_MAN" Datatype="Bool" /><Member Name="LMODE" Datatype="Bool" /></Section></Sections></Member><Member Name="TIME_DELTA" Datatype="Time" /><Member Name="SQ_FLAGS" Datatype="G7_SQFlagsPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="ERR_FLT" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="FAULT" Datatype="Bool" /><Member Name="RT_FAIL" Datatype="Bool" /><Member Name="NO_SNO" Datatype="Bool" /><Member Name="NF_OFL" Datatype="Bool" /><Member Name="SA_OFL" Datatype="Bool" /><Member Name="TV_OFL" Datatype="Bool" /><Member Name="MSG_OFL" Datatype="Bool" /><Member Name="NO_SWI" Datatype="Bool" /><Member Name="CYC_OP" Datatype="Bool" /><Member Name="AS_MSG" Datatype="Bool"><StartValue Informative="true">true</StartValue></Member><Member Name="AS_SEND" Datatype="Bool" /><Member Name="SQ_BUSY" Datatype="Bool" /><Member Name="SA_BUSY" Datatype="Bool" /><Member Name="AS_SIG" Datatype="Bool" /></Section></Sections></Member><Member Name="PRE_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="POST_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="SQ_CNT" Datatype="USInt"><StartValue Informative="true">1</StartValue></Member><Member Name="S_CNT" Datatype="USInt"><StartValue Informative="true">35</StartValue></Member><Member Name="LOCK_CNT" Datatype="USInt" /><Member Name="SUP_CNT" Datatype="USInt" /><Member Name="T_CNT" Datatype="USInt"><StartValue Informative="true">36</StartValue></Member><Member Name="SQ_PART_CNT" Datatype="USInt"><StartValue Informative="true">9</StartValue></Member><Member Name="MAX_TVAL" Datatype="USInt"><StartValue Informative="true">9</StartValue></Member><Member Name="MAX_SACT" Datatype="USInt"><StartValue Informative="true">7</StartValue></Member><Member Name="AS_MSG" Datatype="Byte"><StartValue Informative="true">16#65</StartValue></Member><Member Name="EXEC_BITS" Datatype="Array[0..249] of Bool" /><Member Name="OFFSETS" Datatype="G7_OffsetsPlus_V2" Version="1.0"><Sections><Section Name="None"><Member Name="SINI_OFFSET" Datatype="UInt" /><Member Name="LSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">8</StartValue></Member><Member Name="ATAJ_OFFSET" Datatype="UInt"><StartValue Informative="true">44</StartValue></Member><Member Name="ATAB_OFFSET" Datatype="UInt"><StartValue Informative="true">80</StartValue></Member><Member Name="PSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">116</StartValue></Member><Member Name="NSTT_OFFSET" Datatype="UInt"><StartValue Informative="true">152</StartValue></Member><Member Name="ASSJ_OFFSET" Datatype="UInt"><StartValue Informative="true">188</StartValue></Member><Member Name="ASSB_OFFSET" Datatype="UInt"><StartValue Informative="true">223</StartValue></Member><Member Name="PTTS_OFFSET" Datatype="UInt"><StartValue Informative="true">258</StartValue></Member><Member Name="NTTS_OFFSET" Datatype="UInt"><StartValue Informative="true">293</StartValue></Member><Member Name="SW_SQTS_OFFSET" Datatype="UInt"><StartValue Informative="true">328</StartValue></Member><Member Name="SWITCH_OFFSET" Datatype="UInt"><StartValue Informative="true">363</StartValue></Member><Member Name="TVX_OFFSET" Datatype="UInt"><StartValue Informative="true">374</StartValue></Member><Member Name="TTX_OFFSET" Datatype="UInt"><StartValue Informative="true">384</StartValue></Member><Member Name="TSX_OFFSET" Datatype="UInt"><StartValue Informative="true">394</StartValue></Member><Member Name="S00X_OFFSET" Datatype="UInt"><StartValue Informative="true">402</StartValue></Member><Member Name="SOFFX_OFFSET" Datatype="UInt"><StartValue Informative="true">410</StartValue></Member><Member Name="SONX_OFFSET" Datatype="UInt"><StartValue Informative="true">418</StartValue></Member><Member Name="SAX_OFFSET" Datatype="UInt"><StartValue Informative="true">426</StartValue></Member><Member Name="SERRX_OFFSET" Datatype="UInt"><StartValue Informative="true">434</StartValue></Member><Member Name="SMX_OFFSET" Datatype="UInt"><StartValue Informative="true">470</StartValue></Member><Member Name="S0X_OFFSET" Datatype="UInt"><StartValue Informative="true">506</StartValue></Member><Member Name="S1X_OFFSET" Datatype="UInt"><StartValue Informative="true">542</StartValue></Member></Section></Sections></Member><Member Name="THRESHOLD_SUP" Datatype="USInt" /><Member Name="THRESHOLD_WARN" Datatype="USInt" /></Section></Sections></Member>
     <Member Name="Trans1" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">1</StartValue></Member></Section></Sections></Member>
     <Member Name="Trans2" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">2</StartValue></Member></Section></Sections></Member>
     <Member Name="Ящик на конв." Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">3</StartValue></Member></Section></Sections></Member>
@@ -111,12 +111,17 @@
     <Member Name="Trans30" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">30</StartValue></Member></Section></Sections></Member>
     <Member Name="Trans31" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">31</StartValue></Member></Section></Sections></Member>
     <Member Name="Trans32" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">32</StartValue></Member></Section></Sections></Member>
+    <Member Name="Trans33" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">33</StartValue></Member></Section></Sections></Member>
+    <Member Name="Trans34" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">34</StartValue></Member></Section></Sections></Member>
+    <Member Name="Trans35" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">35</StartValue></Member></Section></Sections></Member>
+    <Member Name="Trans36" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">36</StartValue></Member></Section></Sections></Member>
+    <Member Name="Trans37" Datatype="G7_TransitionPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Transition structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="TV" Datatype="Bool" /><Member Name="TT" Datatype="Bool" /><Member Name="TS" Datatype="Bool" /><Member Name="TNO" Datatype="Int"><StartValue Informative="true">37</StartValue></Member></Section></Sections></Member>
     <Member Name="Step1" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">1</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="белый домой" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">2</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="Оранж домой" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">3</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="Ящик на конвейере" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">4</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
-    <Member Name="Start conveyor" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">5</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
-    <Member Name="Stop conveyor" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">6</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Вкл конвейер" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">5</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Выкл конвейер" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">6</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="К поддонам" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">7</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="Захват поддона" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">8</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="Откр захват" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">9</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
@@ -142,6 +147,10 @@
     <Member Name="1 стоп" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">30</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="2 поехал" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">31</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
     <Member Name="2 стоп" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">32</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Давл. выше" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">33</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Штоки назад" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">34</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Счет ящиков" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">35</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
+    <Member Name="Домой2" Datatype="G7_StepPlus_V2" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" Informative="true" SystemDefined="true">true</BooleanAttribute></AttributeList><Comment Informative="true"><MultiLanguageText Lang="en-US">Step structure</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="S1" Datatype="Bool" /><Member Name="L1" Datatype="Bool" /><Member Name="V1" Datatype="Bool" /><Member Name="R1" Datatype="Bool" /><Member Name="A1" Datatype="Bool" /><Member Name="S0" Datatype="Bool" /><Member Name="L0" Datatype="Bool" /><Member Name="V0" Datatype="Bool" /><Member Name="X" Datatype="Bool" /><Member Name="LA" Datatype="Bool" /><Member Name="VA" Datatype="Bool" /><Member Name="RA" Datatype="Bool" /><Member Name="AA" Datatype="Bool" /><Member Name="SS" Datatype="Bool" /><Member Name="LS" Datatype="Bool" /><Member Name="VS" Datatype="Bool" /><Member Name="SNO" Datatype="Int"><StartValue Informative="true">36</StartValue></Member><Member Name="T" Datatype="Time" /><Member Name="U" Datatype="Time" /><Member Name="T_MAX" Datatype="Time"><StartValue Informative="true">T#10S</StartValue></Member><Member Name="T_WARN" Datatype="Time"><StartValue Informative="true">T#7S</StartValue></Member><Member Name="SM" Datatype="Bool" /><Member Name="H_IL_ERR" Datatype="Byte" /><Member Name="H_SV_FLT" Datatype="Byte"><StartValue Informative="true">16#04</StartValue></Member></Section></Sections></Member>
   </Section>
   <Section Name="Temp" />
   <Section Name="Constant" />
@@ -330,7 +339,7 @@
           </Interlock>
         </Interlocks>
       </Step>
-      <Step Number="5" Init="false" Name="Start conveyor" MaximumStepTime="T#10S" WarningTime="T#7S">
+      <Step Number="5" Init="false" Name="Вкл конвейер" MaximumStepTime="T#10S" WarningTime="T#7S">
         <Actions>
           <Action Qualifier="S">
             <Token Text="&quot;Включить конвейер&quot;" />
@@ -369,7 +378,7 @@
           </Interlock>
         </Interlocks>
       </Step>
-      <Step Number="6" Init="false" Name="Stop conveyor" MaximumStepTime="T#10S" WarningTime="T#7S">
+      <Step Number="6" Init="false" Name="Выкл конвейер" MaximumStepTime="T#10S" WarningTime="T#7S">
         <Actions>
           <Action Qualifier="R">
             <Token Text="&quot;Включить конвейер&quot;" />
@@ -1451,17 +1460,198 @@
           </Interlock>
         </Interlocks>
       </Step>
+      <Step Number="33" Init="false" Name="Давл. выше" MaximumStepTime="T#10S" WarningTime="T#7S">
+        <Actions>
+          <Action />
+        </Actions>
+        <Supervisions>
+          <Supervision ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="SvCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Supervision>
+        </Supervisions>
+        <Interlocks>
+          <Interlock ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="IlCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Interlock>
+        </Interlocks>
+      </Step>
+      <Step Number="34" Init="false" Name="Штоки назад" MaximumStepTime="T#10S" WarningTime="T#7S">
+        <Actions>
+          <Action Qualifier="N">
+            <Token Text="&quot;Давление превышает&quot;" />
+            <Token Text="&#xA;" />
+          </Action>
+          <Action Qualifier="R">
+            <Token Text="&quot;Толкатель 1&quot;" />
+            <Token Text="&#xA;" />
+          </Action>
+          <Action Qualifier="R">
+            <Token Text="&quot;Толкатель 2&quot;" />
+            <Token Text="&#xA;" />
+          </Action>
+          <Action />
+        </Actions>
+        <Supervisions>
+          <Supervision ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="SvCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Supervision>
+        </Supervisions>
+        <Interlocks>
+          <Interlock ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="IlCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Interlock>
+        </Interlocks>
+      </Step>
+      <Step Number="35" Init="false" Name="Счет ящиков" MaximumStepTime="T#10S" WarningTime="T#7S">
+        <Actions>
+          <Action>
+            <Token Text="&#xA;" />
+          </Action>
+          <Action />
+        </Actions>
+        <Supervisions>
+          <Supervision ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="SvCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Supervision>
+        </Supervisions>
+        <Interlocks>
+          <Interlock ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="IlCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Interlock>
+        </Interlocks>
+      </Step>
+      <Step Number="36" Init="false" Name="Домой2" MaximumStepTime="T#10S" WarningTime="T#7S">
+        <Actions>
+          <Action Qualifier="N">
+            <Token Text="&quot;To_robot&quot;" />
+            <Token Text=" " />
+            <Token Text=":=" />
+            <Token Text=" " />
+            <Token Text="1" />
+            <Token Text="&#xA;" />
+          </Action>
+          <Action Qualifier="N">
+            <Token Text="&quot;Работа окончена&quot;" />
+            <Token Text="&#xA;" />
+          </Action>
+          <Action />
+        </Actions>
+        <Supervisions>
+          <Supervision ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="SvCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Supervision>
+        </Supervisions>
+        <Interlocks>
+          <Interlock ProgrammingLanguage="LAD">
+            <FlgNet>
+              <Parts>
+                <Part Name="IlCoil" UId="21" />
+              </Parts>
+              <Wires>
+                <Wire UId="22">
+                  <Powerrail />
+                  <NameCon UId="21" Name="in" />
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </Interlock>
+        </Interlocks>
+      </Step>
     </Steps>
     <Transitions>
       <Transition IsMissing="false" Name="Trans1" Number="1" ProgrammingLanguage="LAD">
         <FlgNet>
           <Parts>
-            <Part Name="TrCoil" UId="21" />
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="Сброс" />
+              </Symbol>
+            </Access>
+            <Part Name="Contact" UId="22" />
+            <Part Name="TrCoil" UId="23" />
           </Parts>
           <Wires>
-            <Wire UId="22">
+            <Wire UId="24">
               <Powerrail />
-              <NameCon UId="21" Name="in" />
+              <NameCon UId="22" Name="in" />
+            </Wire>
+            <Wire UId="25">
+              <IdentCon UId="21" />
+              <NameCon UId="22" Name="operand" />
+            </Wire>
+            <Wire UId="26">
+              <NameCon UId="22" Name="out" />
+              <NameCon UId="23" Name="in" />
             </Wire>
           </Wires>
         </FlgNet>
@@ -2554,9 +2744,195 @@
           </Wires>
         </FlgNet>
       </Transition>
+      <Transition IsMissing="false" Name="Trans33" Number="33" ProgrammingLanguage="LAD">
+        <FlgNet>
+          <Parts>
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="Давление выше" />
+              </Symbol>
+            </Access>
+            <Part Name="Contact" UId="22" />
+            <Part Name="TrCoil" UId="23" />
+          </Parts>
+          <Wires>
+            <Wire UId="24">
+              <Powerrail />
+              <NameCon UId="22" Name="in" />
+            </Wire>
+            <Wire UId="25">
+              <IdentCon UId="21" />
+              <NameCon UId="22" Name="operand" />
+            </Wire>
+            <Wire UId="26">
+              <NameCon UId="22" Name="out" />
+              <NameCon UId="23" Name="in" />
+            </Wire>
+          </Wires>
+        </FlgNet>
+      </Transition>
+      <Transition IsMissing="false" Name="Trans34" Number="34" ProgrammingLanguage="LAD">
+        <FlgNet>
+          <Parts>
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="Ящики" />
+              </Symbol>
+            </Access>
+            <Access Scope="LiteralConstant" UId="22">
+              <Constant>
+                <ConstantType>Int</ConstantType>
+                <ConstantValue>0</ConstantValue>
+              </Constant>
+            </Access>
+            <Part Name="Ne" UId="23">
+              <TemplateValue Name="SrcType" Type="Type">Int</TemplateValue>
+            </Part>
+            <Part Name="TrCoil" UId="24" />
+          </Parts>
+          <Wires>
+            <Wire UId="25">
+              <Powerrail />
+              <NameCon UId="23" Name="pre" />
+            </Wire>
+            <Wire UId="26">
+              <IdentCon UId="21" />
+              <NameCon UId="23" Name="in1" />
+            </Wire>
+            <Wire UId="27">
+              <IdentCon UId="22" />
+              <NameCon UId="23" Name="in2" />
+            </Wire>
+            <Wire UId="28">
+              <NameCon UId="23" Name="out" />
+              <NameCon UId="24" Name="in" />
+            </Wire>
+          </Wires>
+        </FlgNet>
+      </Transition>
+      <Transition IsMissing="false" Name="Trans35" Number="35" ProgrammingLanguage="LAD">
+        <FlgNet>
+          <Parts>
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="Ящики" />
+              </Symbol>
+            </Access>
+            <Access Scope="LiteralConstant" UId="22">
+              <Constant>
+                <ConstantType>Int</ConstantType>
+                <ConstantValue>0</ConstantValue>
+              </Constant>
+            </Access>
+            <Part Name="Eq" UId="23">
+              <TemplateValue Name="SrcType" Type="Type">Int</TemplateValue>
+            </Part>
+            <Part Name="TrCoil" UId="24" />
+          </Parts>
+          <Wires>
+            <Wire UId="25">
+              <Powerrail />
+              <NameCon UId="23" Name="pre" />
+            </Wire>
+            <Wire UId="26">
+              <IdentCon UId="21" />
+              <NameCon UId="23" Name="in1" />
+            </Wire>
+            <Wire UId="27">
+              <IdentCon UId="22" />
+              <NameCon UId="23" Name="in2" />
+            </Wire>
+            <Wire UId="28">
+              <NameCon UId="23" Name="out" />
+              <NameCon UId="24" Name="in" />
+            </Wire>
+          </Wires>
+        </FlgNet>
+      </Transition>
+      <Transition IsMissing="false" Name="Trans36" Number="36" ProgrammingLanguage="LAD">
+        <FlgNet>
+          <Parts>
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="From_robot" />
+              </Symbol>
+            </Access>
+            <Access Scope="LiteralConstant" UId="22">
+              <Constant>
+                <ConstantType>Byte</ConstantType>
+                <ConstantValue>1</ConstantValue>
+              </Constant>
+            </Access>
+            <Part Name="Eq" UId="23">
+              <TemplateValue Name="SrcType" Type="Type">Byte</TemplateValue>
+            </Part>
+            <Part Name="TrCoil" UId="24" />
+          </Parts>
+          <Wires>
+            <Wire UId="25">
+              <Powerrail />
+              <NameCon UId="23" Name="pre" />
+            </Wire>
+            <Wire UId="26">
+              <IdentCon UId="21" />
+              <NameCon UId="23" Name="in1" />
+            </Wire>
+            <Wire UId="27">
+              <IdentCon UId="22" />
+              <NameCon UId="23" Name="in2" />
+            </Wire>
+            <Wire UId="28">
+              <NameCon UId="23" Name="out" />
+              <NameCon UId="24" Name="in" />
+            </Wire>
+          </Wires>
+        </FlgNet>
+      </Transition>
+      <Transition IsMissing="false" Name="Trans37" Number="37" ProgrammingLanguage="LAD">
+        <FlgNet>
+          <Parts>
+            <Access Scope="GlobalVariable" UId="21">
+              <Symbol>
+                <Component Name="Шток 1 втянут" />
+              </Symbol>
+            </Access>
+            <Access Scope="GlobalVariable" UId="22">
+              <Symbol>
+                <Component Name="Шток 2 втянут" />
+              </Symbol>
+            </Access>
+            <Part Name="Contact" UId="23" />
+            <Part Name="Contact" UId="24" />
+            <Part Name="TrCoil" UId="25" />
+          </Parts>
+          <Wires>
+            <Wire UId="26">
+              <Powerrail />
+              <NameCon UId="23" Name="in" />
+            </Wire>
+            <Wire UId="27">
+              <IdentCon UId="21" />
+              <NameCon UId="23" Name="operand" />
+            </Wire>
+            <Wire UId="28">
+              <NameCon UId="23" Name="out" />
+              <NameCon UId="24" Name="in" />
+            </Wire>
+            <Wire UId="29">
+              <IdentCon UId="22" />
+              <NameCon UId="24" Name="operand" />
+            </Wire>
+            <Wire UId="30">
+              <NameCon UId="24" Name="out" />
+              <NameCon UId="25" Name="in" />
+            </Wire>
+          </Wires>
+        </FlgNet>
+      </Transition>
     </Transitions>
     <Branches>
-      <Branch Number="1" Type="SimBegin" Cardinality="5" />
+      <Branch Number="1" Type="SimBegin" Cardinality="6" />
+      <Branch Number="2" Type="AltBegin" Cardinality="2" />
     </Branches>
     <Connections>
       <Connection>
@@ -2583,15 +2959,6 @@
         </NodeFrom>
         <NodeTo>
           <BranchRef Number="1" In="0" />
-        </NodeTo>
-        <LinkType>Direct</LinkType>
-      </Connection>
-      <Connection>
-        <NodeFrom>
-          <BranchRef Number="1" Out="2" />
-        </NodeFrom>
-        <NodeTo>
-          <StepRef Number="4" />
         </NodeTo>
         <LinkType>Direct</LinkType>
       </Connection>
@@ -2628,15 +2995,6 @@
         </NodeFrom>
         <NodeTo>
           <TransitionRef Number="4" />
-        </NodeTo>
-        <LinkType>Direct</LinkType>
-      </Connection>
-      <Connection>
-        <NodeFrom>
-          <TransitionRef Number="5" />
-        </NodeFrom>
-        <NodeTo>
-          <StepRef Number="7" />
         </NodeTo>
         <LinkType>Direct</LinkType>
       </Connection>
@@ -2979,24 +3337,6 @@
         </NodeFrom>
         <NodeTo>
           <StepRef Number="26" />
-        </NodeTo>
-        <LinkType>Direct</LinkType>
-      </Connection>
-      <Connection>
-        <NodeFrom>
-          <BranchRef Number="1" Out="3" />
-        </NodeFrom>
-        <NodeTo>
-          <StepRef Number="27" />
-        </NodeTo>
-        <LinkType>Direct</LinkType>
-      </Connection>
-      <Connection>
-        <NodeFrom>
-          <BranchRef Number="1" Out="4" />
-        </NodeFrom>
-        <NodeTo>
-          <StepRef Number="28" />
         </NodeTo>
         <LinkType>Direct</LinkType>
       </Connection>
@@ -3110,6 +3450,60 @@
       </Connection>
       <Connection>
         <NodeFrom>
+          <TransitionRef Number="33" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="34" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <StepRef Number="33" />
+        </NodeFrom>
+        <NodeTo>
+          <TransitionRef Number="33" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="34" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="7" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <StepRef Number="35" />
+        </NodeFrom>
+        <NodeTo>
+          <BranchRef Number="2" In="0" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="2" Out="0" />
+        </NodeFrom>
+        <NodeTo>
+          <TransitionRef Number="34" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="2" Out="1" />
+        </NodeFrom>
+        <NodeTo>
+          <TransitionRef Number="35" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
           <BranchRef Number="1" Out="1" />
         </NodeFrom>
         <NodeTo>
@@ -3119,25 +3513,79 @@
       </Connection>
       <Connection>
         <NodeFrom>
-          <TransitionRef Number="30" />
+          <TransitionRef Number="5" />
         </NodeFrom>
         <NodeTo>
-          <StepRef Number="1" />
+          <StepRef Number="35" />
         </NodeTo>
-        <LinkType>Jump</LinkType>
+        <LinkType>Direct</LinkType>
       </Connection>
       <Connection>
         <NodeFrom>
-          <TransitionRef Number="31" />
+          <StepRef Number="36" />
         </NodeFrom>
         <NodeTo>
-          <StepRef Number="1" />
+          <TransitionRef Number="36" />
         </NodeTo>
-        <LinkType>Jump</LinkType>
+        <LinkType>Direct</LinkType>
       </Connection>
       <Connection>
         <NodeFrom>
-          <TransitionRef Number="32" />
+          <TransitionRef Number="35" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="36" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="1" Out="2" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="4" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="1" Out="3" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="27" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="1" Out="4" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="28" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <StepRef Number="34" />
+        </NodeFrom>
+        <NodeTo>
+          <TransitionRef Number="37" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <BranchRef Number="1" Out="5" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="33" />
+        </NodeTo>
+        <LinkType>Direct</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="1" />
         </NodeFrom>
         <NodeTo>
           <StepRef Number="1" />
@@ -3149,16 +3597,52 @@
           <TransitionRef Number="25" />
         </NodeFrom>
         <NodeTo>
-          <StepRef Number="3" />
+          <StepRef Number="35" />
         </NodeTo>
         <LinkType>Jump</LinkType>
       </Connection>
       <Connection>
         <NodeFrom>
-          <TransitionRef Number="1" />
+          <TransitionRef Number="36" />
         </NodeFrom>
         <NodeTo>
           <StepRef Number="1" />
+        </NodeTo>
+        <LinkType>Jump</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="32" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="4" />
+        </NodeTo>
+        <LinkType>Jump</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="31" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="27" />
+        </NodeTo>
+        <LinkType>Jump</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="30" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="28" />
+        </NodeTo>
+        <LinkType>Jump</LinkType>
+      </Connection>
+      <Connection>
+        <NodeFrom>
+          <TransitionRef Number="37" />
+        </NodeFrom>
+        <NodeTo>
+          <StepRef Number="33" />
         </NodeTo>
         <LinkType>Jump</LinkType>
       </Connection>
