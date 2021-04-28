@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-04-27T17:19:36.9314574Z</Created>
+    <Created>2021-04-28T10:24:10.8580116Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -34,6 +34,7 @@
   <SW.Blocks.InstanceDB ID="0">
     <AttributeList>
       <AutoNumber>true</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
       <InstanceOfName>IEC_TIMER</InstanceOfName>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v4">
   <Section Name="Static">
