@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-04-29T06:40:08.178714Z</Created>
+    <Created>2021-04-29T07:06:29.8388513Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -415,122 +415,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="12" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Старт" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="для светофора зел" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Авария" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="25">
-      <Constant>
-        <ConstantValue>T#5S</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="26">
-      <Symbol>
-        <Component Name="Светофор зелёный" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="27">
-      <Symbol>
-        <Component Name="для светофора зел" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="28" />
-    <Part Name="Contact" UId="29">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="30">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="31">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="TON" Version="1.0" UId="32">
-      <Instance Scope="GlobalVariable" UId="33">
-        <Component Name="Светофор зел. вкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="SCoil" UId="34" />
-    <Part Name="SCoil" UId="35" />
-  </Parts>
-  <Wires>
-    <Wire UId="37">
-      <Powerrail />
-      <NameCon UId="28" Name="in" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="21" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="39">
-      <NameCon UId="28" Name="out" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="22" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-    <Wire UId="41">
-      <NameCon UId="29" Name="out" />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="42">
-      <IdentCon UId="23" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="43">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="31" Name="in" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="24" />
-      <NameCon UId="31" Name="operand" />
-    </Wire>
-    <Wire UId="45">
-      <NameCon UId="31" Name="out" />
-      <NameCon UId="32" Name="IN" />
-    </Wire>
-    <Wire UId="46">
-      <IdentCon UId="25" />
-      <NameCon UId="32" Name="PT" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="32" Name="Q" />
-      <NameCon UId="34" Name="in" />
-      <NameCon UId="35" Name="in" />
-    </Wire>
-    <Wire UId="48">
-      <NameCon UId="32" Name="ET" />
-      <OpenCon UId="36" />
-    </Wire>
-    <Wire UId="49">
-      <IdentCon UId="26" />
-      <NameCon UId="34" Name="operand" />
-    </Wire>
-    <Wire UId="50">
-      <IdentCon UId="27" />
-      <NameCon UId="35" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -549,7 +434,7 @@
               <MultilingualTextItem ID="16" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Сигнал "Работает"(Светофор зеленый вкл)</Text>
+                  <Text>Светофор "Красный"</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -558,74 +443,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="для светофора зел" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="22">
-      <Constant>
-        <ConstantValue>T#60S</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Светофор зелёный" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="для светофора зел" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="25" />
-    <Part Name="TON" Version="1.0" UId="26">
-      <Instance Scope="GlobalVariable" UId="27">
-        <Component Name="Светофор зел. выкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="RCoil" UId="28" />
-    <Part Name="RCoil" UId="29" />
-  </Parts>
-  <Wires>
-    <Wire UId="31">
-      <Powerrail />
-      <NameCon UId="25" Name="in" />
-    </Wire>
-    <Wire UId="32">
-      <IdentCon UId="21" />
-      <NameCon UId="25" Name="operand" />
-    </Wire>
-    <Wire UId="33">
-      <NameCon UId="25" Name="out" />
-      <NameCon UId="26" Name="IN" />
-    </Wire>
-    <Wire UId="34">
-      <IdentCon UId="22" />
-      <NameCon UId="26" Name="PT" />
-    </Wire>
-    <Wire UId="35">
-      <NameCon UId="26" Name="Q" />
-      <NameCon UId="28" Name="in" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="36">
-      <NameCon UId="26" Name="ET" />
-      <OpenCon UId="30" />
-    </Wire>
-    <Wire UId="37">
-      <IdentCon UId="23" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="24" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -644,7 +462,7 @@
               <MultilingualTextItem ID="1B" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Сигнал "Работает"(Светофор зеленый выкл)</Text>
+                  <Text>Светофор "Зеленый"</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -653,88 +471,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="1C" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Старт" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="Стоп" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Сброс" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Авария" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="25">
-      <Symbol>
-        <Component Name="Лампа кнопки зелёная" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="26" />
-    <Part Name="Contact" UId="27">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="28">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="29">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Coil" UId="30" />
-  </Parts>
-  <Wires>
-    <Wire UId="31">
-      <Powerrail />
-      <NameCon UId="26" Name="in" />
-    </Wire>
-    <Wire UId="32">
-      <IdentCon UId="21" />
-      <NameCon UId="26" Name="operand" />
-    </Wire>
-    <Wire UId="33">
-      <NameCon UId="26" Name="out" />
-      <NameCon UId="27" Name="in" />
-    </Wire>
-    <Wire UId="34">
-      <IdentCon UId="22" />
-      <NameCon UId="27" Name="operand" />
-    </Wire>
-    <Wire UId="35">
-      <NameCon UId="27" Name="out" />
-      <NameCon UId="28" Name="in" />
-    </Wire>
-    <Wire UId="36">
-      <IdentCon UId="23" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="37">
-      <NameCon UId="28" Name="out" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="24" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-    <Wire UId="39">
-      <NameCon UId="29" Name="out" />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="25" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -753,7 +490,7 @@
               <MultilingualTextItem ID="20" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Сигнал "Работает"(Лампа кнопки зеленая вкл/выкл)</Text>
+                  <Text>Светофор "Желтый"</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -762,152 +499,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="21" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="Старт" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="для лампы крас" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Стоп" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="25">
-      <Symbol>
-        <Component Name="Сброс" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="26">
-      <Symbol>
-        <Component Name="Авария" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="27">
-      <Constant>
-        <ConstantValue>T#500ms</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="28">
-      <Symbol>
-        <Component Name="Лампа кнопки красная" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="29">
-      <Symbol>
-        <Component Name="для лампы крас" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="30" />
-    <Part Name="Contact" UId="31" />
-    <Part Name="Contact" UId="32">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="33">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="34">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="35">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="TON" Version="1.0" UId="36">
-      <Instance Scope="GlobalVariable" UId="37">
-        <Component Name="Лампа крас вкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="SCoil" UId="38" />
-    <Part Name="SCoil" UId="39" />
-  </Parts>
-  <Wires>
-    <Wire UId="41">
-      <Powerrail />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="42">
-      <IdentCon UId="21" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="43">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="31" Name="in" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="22" />
-      <NameCon UId="31" Name="operand" />
-    </Wire>
-    <Wire UId="45">
-      <NameCon UId="31" Name="out" />
-      <NameCon UId="32" Name="in" />
-    </Wire>
-    <Wire UId="46">
-      <IdentCon UId="23" />
-      <NameCon UId="32" Name="operand" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="32" Name="out" />
-      <NameCon UId="33" Name="in" />
-    </Wire>
-    <Wire UId="48">
-      <IdentCon UId="24" />
-      <NameCon UId="33" Name="operand" />
-    </Wire>
-    <Wire UId="49">
-      <NameCon UId="33" Name="out" />
-      <NameCon UId="34" Name="in" />
-    </Wire>
-    <Wire UId="50">
-      <IdentCon UId="25" />
-      <NameCon UId="34" Name="operand" />
-    </Wire>
-    <Wire UId="51">
-      <NameCon UId="34" Name="out" />
-      <NameCon UId="35" Name="in" />
-    </Wire>
-    <Wire UId="52">
-      <IdentCon UId="26" />
-      <NameCon UId="35" Name="operand" />
-    </Wire>
-    <Wire UId="53">
-      <NameCon UId="35" Name="out" />
-      <NameCon UId="36" Name="IN" />
-    </Wire>
-    <Wire UId="54">
-      <IdentCon UId="27" />
-      <NameCon UId="36" Name="PT" />
-    </Wire>
-    <Wire UId="55">
-      <NameCon UId="36" Name="Q" />
-      <NameCon UId="38" Name="in" />
-      <NameCon UId="39" Name="in" />
-    </Wire>
-    <Wire UId="56">
-      <NameCon UId="36" Name="ET" />
-      <OpenCon UId="40" />
-    </Wire>
-    <Wire UId="57">
-      <IdentCon UId="28" />
-      <NameCon UId="38" Name="operand" />
-    </Wire>
-    <Wire UId="58">
-      <IdentCon UId="29" />
-      <NameCon UId="39" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -926,7 +518,7 @@
               <MultilingualTextItem ID="25" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Сигнал "Пауза"(Лампа кнопки красная вкл)</Text>
+                  <Text>Светофор "Красный"</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -935,74 +527,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="для лампы крас" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="22">
-      <Constant>
-        <ConstantValue>T#500ms</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Лампа кнопки красная" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="для лампы крас" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="25" />
-    <Part Name="TOF" Version="1.0" UId="26">
-      <Instance Scope="GlobalVariable" UId="27">
-        <Component Name="Лампа крас выкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="RCoil" UId="28" />
-    <Part Name="RCoil" UId="29" />
-  </Parts>
-  <Wires>
-    <Wire UId="31">
-      <Powerrail />
-      <NameCon UId="25" Name="in" />
-    </Wire>
-    <Wire UId="32">
-      <IdentCon UId="21" />
-      <NameCon UId="25" Name="operand" />
-    </Wire>
-    <Wire UId="33">
-      <NameCon UId="25" Name="out" />
-      <NameCon UId="26" Name="IN" />
-    </Wire>
-    <Wire UId="34">
-      <IdentCon UId="22" />
-      <NameCon UId="26" Name="PT" />
-    </Wire>
-    <Wire UId="35">
-      <NameCon UId="26" Name="Q" />
-      <NameCon UId="28" Name="in" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="36">
-      <NameCon UId="26" Name="ET" />
-      <OpenCon UId="30" />
-    </Wire>
-    <Wire UId="37">
-      <IdentCon UId="23" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="24" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -1021,7 +546,7 @@
               <MultilingualTextItem ID="2A" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
-                  <Text>Сигнал "Пауза"(Лампа кнопки красная выкл)</Text>
+                  <Text />
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
@@ -1029,603 +554,6 @@
         </ObjectList>
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="2B" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Стоп" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="Старт" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Лампа кнопки красная" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="24" />
-    <Part Name="Contact" UId="25" />
-    <Part Name="Sr" UId="26" />
-  </Parts>
-  <Wires>
-    <Wire UId="27">
-      <Powerrail />
-      <NameCon UId="24" Name="in" />
-      <NameCon UId="25" Name="in" />
-    </Wire>
-    <Wire UId="28">
-      <IdentCon UId="21" />
-      <NameCon UId="24" Name="operand" />
-    </Wire>
-    <Wire UId="29">
-      <NameCon UId="24" Name="out" />
-      <NameCon UId="26" Name="s" />
-    </Wire>
-    <Wire UId="30">
-      <IdentCon UId="22" />
-      <NameCon UId="25" Name="operand" />
-    </Wire>
-    <Wire UId="31">
-      <NameCon UId="25" Name="out" />
-      <NameCon UId="26" Name="r1" />
-    </Wire>
-    <Wire UId="32">
-      <IdentCon UId="23" />
-      <NameCon UId="26" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="2C" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="2D" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="2E" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="2F" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сигнал "Остановлено"(Лампа кнопки красная стат)</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="для светофора крас" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Авария" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="25">
-      <Constant>
-        <ConstantValue>T#2S</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="26">
-      <Symbol>
-        <Component Name="Светофор красный" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="27">
-      <Symbol>
-        <Component Name="для светофора крас" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="28" />
-    <Part Name="Contact" UId="29">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="30">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="31">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="TON" Version="1.0" UId="32">
-      <Instance Scope="GlobalVariable" UId="33">
-        <Component Name="Светофор крас вкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="SCoil" UId="34" />
-    <Part Name="SCoil" UId="35" />
-  </Parts>
-  <Wires>
-    <Wire UId="37">
-      <Powerrail />
-      <NameCon UId="28" Name="in" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="21" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="39">
-      <NameCon UId="28" Name="out" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="22" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-    <Wire UId="41">
-      <NameCon UId="29" Name="out" />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="42">
-      <IdentCon UId="23" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="43">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="31" Name="in" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="24" />
-      <NameCon UId="31" Name="operand" />
-    </Wire>
-    <Wire UId="45">
-      <NameCon UId="31" Name="out" />
-      <NameCon UId="32" Name="IN" />
-    </Wire>
-    <Wire UId="46">
-      <IdentCon UId="25" />
-      <NameCon UId="32" Name="PT" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="32" Name="Q" />
-      <NameCon UId="34" Name="in" />
-      <NameCon UId="35" Name="in" />
-    </Wire>
-    <Wire UId="48">
-      <NameCon UId="32" Name="ET" />
-      <OpenCon UId="36" />
-    </Wire>
-    <Wire UId="49">
-      <IdentCon UId="26" />
-      <NameCon UId="34" Name="operand" />
-    </Wire>
-    <Wire UId="50">
-      <IdentCon UId="27" />
-      <NameCon UId="35" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="31" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="32" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="33" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="34" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сигнал "Авария"(Светофор красный вкл)</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="35" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="для лампы крас" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="22">
-      <Constant>
-        <ConstantValue>T#4S</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Светофор красный" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="для светофора крас" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="25" />
-    <Part Name="TOF" Version="1.0" UId="26">
-      <Instance Scope="GlobalVariable" UId="27">
-        <Component Name="Светофор крас выкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="RCoil" UId="28" />
-    <Part Name="RCoil" UId="29" />
-  </Parts>
-  <Wires>
-    <Wire UId="31">
-      <Powerrail />
-      <NameCon UId="25" Name="in" />
-    </Wire>
-    <Wire UId="32">
-      <IdentCon UId="21" />
-      <NameCon UId="25" Name="operand" />
-    </Wire>
-    <Wire UId="33">
-      <NameCon UId="25" Name="out" />
-      <NameCon UId="26" Name="IN" />
-    </Wire>
-    <Wire UId="34">
-      <IdentCon UId="22" />
-      <NameCon UId="26" Name="PT" />
-    </Wire>
-    <Wire UId="35">
-      <NameCon UId="26" Name="Q" />
-      <NameCon UId="28" Name="in" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="36">
-      <NameCon UId="26" Name="ET" />
-      <OpenCon UId="30" />
-    </Wire>
-    <Wire UId="37">
-      <IdentCon UId="23" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="24" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="36" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="37" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="38" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="39" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сигнал "Авария"(Светофор красный выкл)</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="3A" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="для светофора крас" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Пауза" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Авария" />
-      </Symbol>
-    </Access>
-    <Access Scope="TypedConstant" UId="25">
-      <Constant>
-        <ConstantValue>T#2S</ConstantValue>
-      </Constant>
-    </Access>
-    <Access Scope="GlobalVariable" UId="26">
-      <Symbol>
-        <Component Name="Светофор красный" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="27">
-      <Symbol>
-        <Component Name="для светофора крас" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="28" />
-    <Part Name="Contact" UId="29">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="30">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="Contact" UId="31">
-      <Negated Name="operand" />
-    </Part>
-    <Part Name="TON" Version="1.0" UId="32">
-      <Instance Scope="GlobalVariable" UId="33">
-        <Component Name="Светофор оранж вкл" />
-      </Instance>
-      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
-    </Part>
-    <Part Name="SCoil" UId="34" />
-    <Part Name="SCoil" UId="35" />
-  </Parts>
-  <Wires>
-    <Wire UId="37">
-      <Powerrail />
-      <NameCon UId="28" Name="in" />
-    </Wire>
-    <Wire UId="38">
-      <IdentCon UId="21" />
-      <NameCon UId="28" Name="operand" />
-    </Wire>
-    <Wire UId="39">
-      <NameCon UId="28" Name="out" />
-      <NameCon UId="29" Name="in" />
-    </Wire>
-    <Wire UId="40">
-      <IdentCon UId="22" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-    <Wire UId="41">
-      <NameCon UId="29" Name="out" />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="42">
-      <IdentCon UId="23" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="43">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="31" Name="in" />
-    </Wire>
-    <Wire UId="44">
-      <IdentCon UId="24" />
-      <NameCon UId="31" Name="operand" />
-    </Wire>
-    <Wire UId="45">
-      <NameCon UId="31" Name="out" />
-      <NameCon UId="32" Name="IN" />
-    </Wire>
-    <Wire UId="46">
-      <IdentCon UId="25" />
-      <NameCon UId="32" Name="PT" />
-    </Wire>
-    <Wire UId="47">
-      <NameCon UId="32" Name="Q" />
-      <NameCon UId="34" Name="in" />
-      <NameCon UId="35" Name="in" />
-    </Wire>
-    <Wire UId="48">
-      <NameCon UId="32" Name="ET" />
-      <OpenCon UId="36" />
-    </Wire>
-    <Wire UId="49">
-      <IdentCon UId="26" />
-      <NameCon UId="34" Name="operand" />
-    </Wire>
-    <Wire UId="50">
-      <IdentCon UId="27" />
-      <NameCon UId="35" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="3B" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="3C" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="3D" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="3E" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сигнал "Ошибка"(Светофор оранж вкл)</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="3F" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="40" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="41" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="42" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="43" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сигнал "Ошибка"(Светофор оранж выкл)</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="44" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="45" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="46" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="47" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="48" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сирена "Включено"</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="49" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="4A" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="4B" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="4C" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="4D" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сирена "Пауза"</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="4E" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="4F" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="50" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="51" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="52" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сирена "Стоп"</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="53" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="54" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="55" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="56" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="57" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text>Сирена "Авария"</Text>
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="58" CompositionName="CompileUnits">
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
   <Parts>
@@ -1752,9 +680,9 @@
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
-          <MultilingualText ID="59" CompositionName="Comment">
+          <MultilingualText ID="2C" CompositionName="Comment">
             <ObjectList>
-              <MultilingualTextItem ID="5A" CompositionName="Items">
+              <MultilingualTextItem ID="2D" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
@@ -1762,9 +690,9 @@
               </MultilingualTextItem>
             </ObjectList>
           </MultilingualText>
-          <MultilingualText ID="5B" CompositionName="Title">
+          <MultilingualText ID="2E" CompositionName="Title">
             <ObjectList>
-              <MultilingualTextItem ID="5C" CompositionName="Items">
+              <MultilingualTextItem ID="2F" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text>Граф</Text>
@@ -1774,15 +702,15 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="5D" CompositionName="CompileUnits">
+      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
         <AttributeList>
           <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
-          <MultilingualText ID="5E" CompositionName="Comment">
+          <MultilingualText ID="31" CompositionName="Comment">
             <ObjectList>
-              <MultilingualTextItem ID="5F" CompositionName="Items">
+              <MultilingualTextItem ID="32" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
@@ -1790,9 +718,9 @@
               </MultilingualTextItem>
             </ObjectList>
           </MultilingualText>
-          <MultilingualText ID="60" CompositionName="Title">
+          <MultilingualText ID="33" CompositionName="Title">
             <ObjectList>
-              <MultilingualTextItem ID="61" CompositionName="Items">
+              <MultilingualTextItem ID="34" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
@@ -1802,9 +730,9 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-      <MultilingualText ID="62" CompositionName="Title">
+      <MultilingualText ID="35" CompositionName="Title">
         <ObjectList>
-          <MultilingualTextItem ID="63" CompositionName="Items">
+          <MultilingualTextItem ID="36" CompositionName="Items">
             <AttributeList>
               <Culture>en-US</Culture>
               <Text>"Main Program Sweep (Cycle)"</Text>
